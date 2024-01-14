@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.part-1 {
+    position: relative;
+    height: 263px;
+    background-image: url(kid-11.png);
+    background-repeat: no-repeat;
+    
+}
+.image-5{
+    left: 117px;
+    position: absolute;
+    top: 28px;
+}
+
+.head-4 {
+    top: 104px;
+    position: absolute;
+    right: 176px;
+}
+
+.p-5 {
+    left: 34px;
+    top: 135px;
+    position: absolute;
+    width: 55%;
+    text-align: center;
+}
+.part-1:hover{
+    background-image: url(kid-7.png);
+    color: white;
+}
+.image-6{
+    position: absolute;
+    left: 117px;
+    top: 28px;
+    display: none;
+}
+
+.image-6:hover{
+    display: contents;
+}
